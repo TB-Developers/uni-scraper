@@ -90,6 +90,7 @@
 .tooltip i{
     font-size: 13px;
     color: gray;
+    opacity: .6;
 }
 
 .tooltip {
@@ -253,6 +254,8 @@
     list-style-type: none;
     padding: 10px;
     font-size: 20px;
+    text-align: left;
+    margin-left: 130px;
 }
 
 .degree-level-list li::before{
