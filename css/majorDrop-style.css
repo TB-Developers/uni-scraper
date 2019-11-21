@@ -63,18 +63,17 @@
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 2px;
-    padding: 10px 20px;
+    padding: 10px 0px;
     width: 100%;
     transition: 0.3s ease-in-out;
-    border-radius: 20px;
 }
 
 .majorDrop-links li{
     padding: 20px 0px;
-    text-align: center;
+    text-align: left;
+    margin-left: 200px;
 }
 
 .majorDrop-links a:hover{
-    background-color: white;
-    color: #333;
+    border-bottom: 5px solid white;
 }
