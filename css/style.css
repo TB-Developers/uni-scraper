@@ -73,22 +73,31 @@ nav{
 
 .nav-links a{
     color: white;
-    display: block;
+    display: inline-block;
     text-align: center;
-    margin-top: 3px;
-    padding: 14px;
+    margin-top: 0px;
+    padding: 15px;
     text-decoration: none;
     font-size: 17px;
-    border-bottom: 7px solid transparent;
-    font-weight: bold;
-    letter-spacing: 3px;
+    font-weight: bolder;
+    letter-spacing: 3px; 
     transition: 0.3s ease-in-out;
-    
 }
 
 .nav-links a:hover{
-    border-bottom: 7px solid white;
+    background-color: white;
+    color: #333;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 .clear-icon{

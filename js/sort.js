@@ -1,17 +1,6 @@
 $(document).ready(function() {
-    $("#sortByRank-btn").click(function() {
-  
-      if ($(".rank-sort1").hasClass('fa-sort-numeric-down')) {
-        $(".uniDrop-links li").sort(function(a, b) {
-          return parseInt(b.id) - parseInt(a.id);
-        }).each(function() {
-          var elem = $(this);
-          elem.remove();
-          $(elem).appendTo(".uniDrop-links");
-        });
-        $(".rank-sort1").toggleClass('fa-sort-numeric-up fa-sort-numeric-down');
-      } 
-      else {
+    $("#sortByRank").click(function() {
+
         $(".uniDrop-links li").sort(function(a, b) {
           return parseInt(a.id) - parseInt(b.id);
         }).each(function() {
@@ -19,34 +8,20 @@ $(document).ready(function() {
           elem.remove();
           $(elem).appendTo(".uniDrop-links");
         });
-        $(".rank-sort1").toggleClass('fa-sort-numeric-up fa-sort-numeric-down');
-  
-      }
   
     });
   });
 
 
   $(document).ready(function(){
-      $("#sortByAlpha-btn").click(function(){
+      $("#sortByAlpha").click(function(){
 
-        if($(".alpha-sort1").hasClass('fa-sort-alpha-down')){
-            $(".uniDrop-links li").sort(function(a, b){
-                return $(b).text().localeCompare($(a).text());
-            }).appendTo(".uniDrop-links");
-            $(".alpha-sort1").toggleClass('fa-sort-alpha-up fa-sort-alpha-down');
-        }
-
-        else{
-            $(".uniDrop-links li").sort(function(a, b){
-            return $(a).text().localeCompare($(b).text());
-        }).appendTo(".uniDrop-links");
-        $(".alpha-sort1").toggleClass('fa-sort-alpha-up fa-sort-alpha-down');
-        }
-
+        $(".uniDrop-links li").sort(function(a, b){
+          return $(a).text().localeCompare($(b).text());
+      }).appendTo(".uniDrop-links");
         
-      })
-  })
+      });
+  });
 
 
   //////////toggle sort//////////
