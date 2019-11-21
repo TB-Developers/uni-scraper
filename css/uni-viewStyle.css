@@ -1,0 +1,371 @@
+.overview-container{
+    height: fit-content;
+}
+
+
+
+
+
+
+
+
+
+.uni-overview{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/University/uni-cover-default.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+}
+
+
+
+
+.uni-title{
+    padding: 60px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.uni-logo img{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+
+.title-txt{
+    float: left;
+    padding: 10px 28px;
+    text-align: center;
+    background-color: rgba(51, 51, 51, 0.4);
+    border-radius: 20px;
+}
+
+.title-txt h1{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 13px;
+}
+
+.title-txt p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 13px;
+}
+
+.title-txt a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title-txt a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+.uni-BriefInfo{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.tooltip i{
+    font-size: 13px;
+    color: gray;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1px;
+    line-height: normal;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 180%;
+    left: 50%;
+    margin-left: -100px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltip i:hover{
+      opacity: .9;
+  }
+
+
+
+
+  .brief-info{
+      padding: 0 70px;
+  }
+
+
+  .brief-info label{
+      font-size: 20px;
+  }
+
+  .brief-content p{
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+.overview-info{
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+
+
+
+  .uni-detail{
+      margin-top: 20px;
+      padding: 10px;
+      width: 50%;
+  }
+
+.uni-detail ul{
+    margin-bottom: 25px;
+    border-bottom: 5px solid #333;
+    text-align: center;
+}
+
+
+.uni-detail h2{
+    padding: 7px;
+    font-size: 25px;
+}
+
+.uni-detail p{
+    padding: 10px;
+    display: block;
+    line-height: 2;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+.uni-major{
+    height: fit-content;
+    margin-top: 20px;
+      padding: 10px;
+      width: 35%;
+      border: 2px solid rgba(51, 51, 51, 0.5);
+      border-radius: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.uni-major h2{
+    text-align: center;
+    padding: 7px;
+    font-size: 25px;
+    border-bottom: 5px solid #333;
+    margin-bottom: 25px;
+}
+
+.uni-major-list{
+    padding: 10px;
+}
+
+.uni-major-list li{
+    list-style-type: decimal;
+    padding: 10px;
+}
+
+.uni-major-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.uni-major-list a:hover{
+    margin-left: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.uni-major-list p{
+    margin-left: 30px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+
+
+
+.degree-level-list{
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.degree-level-list li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.degree-level-list li::before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.5em;
+}
+
+
+
+
+
+
+.FMI-list{
+    padding: 40px 50px;
+    width: 100%;
+    height: fit-content;
+}
+
+.FMI-list h1{
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 5px solid #333;
+    margin-bottom: 20px;
+}
+
+.FMI-list li{
+    padding: 15px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.FMI-list a{
+    color: dodgerblue;
+    margin-left: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+
+.FMI-list a:hover{
+    border-bottom: 1px solid dodgerblue;
+}
+
+
+.FMI-list h1{
+    padding: 7px;
+}
+
+
+
+
+
+
+.map-embed-title{
+    padding: 0px 50px;
+    width: 100%;
+    height: fit-content;
+}
+
+
+.map-embed-title h1{
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 5px solid #333;
+    padding: 7px;
+}
+
+
+.map-embed{
+    box-sizing: border-box;
+    justify-content: space-around;
+    display: flex;
+    padding: 50px;
+    width: 100%;
+}
+
+
+.mapouter{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-style: groove;
+    border-width: 1px;
+  }
+
+  
