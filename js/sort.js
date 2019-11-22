@@ -77,6 +77,9 @@ $(document).ready(function() {
       })
   })
 
+  //////////////////////////////////////////////////////
 
 
-  
+  $(".uni-major-list li").sort(function(a, b){
+    return $(a).text().localeCompare($(b).text());
+}).appendTo(".uni-major-list");
