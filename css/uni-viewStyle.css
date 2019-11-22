@@ -185,6 +185,7 @@
     display: block;
     line-height: 2;
     font-size: 16px;
+    text-align: justify;
 }
 
 
@@ -255,7 +256,7 @@
     padding: 10px;
     font-size: 20px;
     text-align: left;
-    margin-left: 130px;
+    margin-left: 150px;
 }
 
 .degree-level-list li::before{
@@ -356,7 +357,27 @@
 
 
 
+.readMore{
+    text-align: right;
+    padding: 10px 5px;
+}
 
+.readMore button{
+    border: transparent;
+    outline: none;
+    background-color: transparent;
+}
+
+.readMore img{
+    width: 110px;
+    opacity: .65;
+    border-radius: 100px;
+}
+
+.readMore img:hover{
+    opacity: .85;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 
