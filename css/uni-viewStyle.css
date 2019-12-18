@@ -142,6 +142,7 @@
   .brief-content p{
       font-size: 30px;
       font-weight: bold;
+      text-transform: capitalize;
   }
 
 
