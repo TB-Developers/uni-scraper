@@ -58,6 +58,7 @@
 .title-txt p{
     color: rgb(255, 255, 255);
     font-size: 20px;
+    text-transform: capitalize;
     letter-spacing: 1px;
     padding: 13px;
 }
