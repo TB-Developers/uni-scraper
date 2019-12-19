@@ -38,3 +38,20 @@
 #sortByRank:hover::after, #sortByAlpha:hover::after{
     transform: scaleX(1);
 }
+
+
+
+
+
+
+.sortState{
+    display: flex;
+    justify-content: center;
+}
+
+
+#currentSort{
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    text-transform: capitalize;
+}

@@ -8,7 +8,7 @@ $(document).ready(function() {
           elem.remove();
           $(elem).appendTo(".uniDrop-links");
         });
-  
+        $("#currentSort").text("(sorted by ranking)");
     });
   });
 
@@ -19,7 +19,7 @@ $(document).ready(function() {
         $(".uniDrop-links li").sort(function(a, b){
           return $(a).text().localeCompare($(b).text());
       }).appendTo(".uniDrop-links");
-        
+      $("#currentSort").text("(sorted by alphabet)");
       });
   });
 
