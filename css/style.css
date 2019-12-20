@@ -17,18 +17,16 @@ body{
 
 
 .logo{
-    margin: 5px;
+    margin: 14px;
     letter-spacing: 2px;
     text-decoration: none;
     overflow: hidden;
-    margin-bottom: 15px;
-    margin-left: 15px;
     box-sizing: border-box;
     
 }
 
 .logo img{
-    width: 360px;
+    width: 350px;
     height: auto;
 }
 
@@ -36,7 +34,7 @@ body{
     
     float: right;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 45px;
 }
 
