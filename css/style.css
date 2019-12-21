@@ -32,7 +32,6 @@ body{
 }
 
 .logo img:hover{
-    width: 357px;
     opacity: .75;
 }
 
