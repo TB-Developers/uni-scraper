@@ -277,6 +277,8 @@
 
 
 
+
+
 .campus-list li{
     list-style-type: none;
     padding: 15px;
@@ -317,10 +319,15 @@
 }
 
 .campus-link{
-    padding-bottom: 0;
     column-count: 2;
     column-fill: balance;
 }
+
+.campus-list{
+    padding-bottom: 0;
+}
+
+
 
 .FMI-list h1, .campus-list h1{
     font-weight: bold;
