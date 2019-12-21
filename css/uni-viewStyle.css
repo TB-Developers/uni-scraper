@@ -277,18 +277,57 @@
 
 
 
+.campus-list li{
+    list-style-type: none;
+    padding: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
 
-.FMI-list{
+.campus-link a{
+    color: rgba(51, 51, 51, 0.75);
+    font-size: 18px;
+    margin-left: 20px;
+    text-transform: lowercase;
+}
+
+.campus-link a:hover{
+    text-decoration: none;
+}
+
+
+.campus-list li::before{
+    content: "\f35a";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.5em;
+}
+
+
+
+
+
+.FMI-list, .campus-list{
     padding: 40px 50px;
     width: 100%;
     height: fit-content;
 }
 
-.FMI-list h1{
+.campus-link{
+    padding-bottom: 0;
+    column-count: 2;
+    column-fill: balance;
+}
+
+.FMI-list h1, .campus-list h1{
     font-weight: bold;
     font-size: 25px;
     border-bottom: 5px solid #333;
     margin-bottom: 20px;
+    padding: 7px;
 }
 
 .FMI-list li{
@@ -316,10 +355,6 @@
     border-bottom: 1px solid dodgerblue;
 }
 
-
-.FMI-list h1{
-    padding: 7px;
-}
 
 
 

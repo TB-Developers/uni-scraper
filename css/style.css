@@ -304,11 +304,11 @@ nav{
     background-color: transparent;
     color: black;
     cursor: pointer;
-    opacity: .65;
+    opacity: .45;
 }
 
 #goTopBtn:hover{
-    opacity: .85;
+    opacity: .8;
 }
 
 
