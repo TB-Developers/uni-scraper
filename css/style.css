@@ -28,6 +28,12 @@ body{
 .logo img{
     width: 360px;
     height: auto;
+    transition: 0.2s ease;
+}
+
+.logo img:hover{
+    width: 357px;
+    opacity: .75;
 }
 
 .subtext{
