@@ -63,8 +63,9 @@
 
 .uniDrop-links li{
     padding: 20px 0px;
-    margin-left: 150px;
-    text-align: left;
+    margin-right: 150px;
+    text-align: right;
+    
 }
 
 .uniDrop-links a{
