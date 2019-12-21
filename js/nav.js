@@ -30,6 +30,11 @@ $(document).ready(function(){
                 $(".uniDrop").slideToggle("fast");
                 $(".caret-icon1").toggleClass('fa-caret-up fa-caret-down');
             }
+
+            $(".majorDrop-links li").sort(function(a, b){
+                return $(a).text().localeCompare($(b).text());
+            }).appendTo(".majorDrop-links");
+
         });
     });
 
