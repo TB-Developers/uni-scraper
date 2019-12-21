@@ -315,3 +315,19 @@ nav{
 
 
 
+.warning-msg{
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 2;
+}
+
+.warning-msg h1{
+    font-weight: bolder;
+}
+
+.warning-msg p{
+    font-size: 12px;
+}
+
+
