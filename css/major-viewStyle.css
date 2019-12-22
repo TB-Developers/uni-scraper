@@ -2,17 +2,20 @@
     height: fit-content;
 }
 
+ /*Add major pictures*/
 
-
-.accounting-overview{       
+.accounting-overview{              
     width: 100%;
     height: 500px;
-    background-image: url(../images/Major/Accounting.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 150px;
     display: flex;
     justify-content: center;
+}
+
+.accounting-overview{
+    background-image: url(../images/Major/accounting.jpg);
 }
 
 
