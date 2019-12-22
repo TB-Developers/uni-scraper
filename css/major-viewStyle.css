@@ -1,0 +1,194 @@
+.major-wrap{
+    height: fit-content;
+}
+
+
+
+.accounting-overview{       
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/Major/Accounting.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.major-title{
+    text-align: center;
+    width: fit-content;
+    padding: 40px;
+    border-radius: 40px;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.major-title h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+
+
+/*
+style of major info
+*/
+
+.major-info{
+    width: 100%;
+    padding: 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+
+
+
+
+.major-description, .major-overview{
+    margin-top: 10px;
+      padding: 20px;
+}
+
+.major-description{
+      width: 35%;
+      border: 2px solid rgba(51, 51, 51, 0.5);
+      border-radius: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.major-overview{
+    width: 50%;
+    
+}
+
+.major-description h2, .major-overview h2{
+    text-align: center;
+    padding: 7px;
+    font-size: 28px;
+    border-bottom: 5px solid #333;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+
+.major-description p, .major-overview p{
+    padding: 10px;
+    display: block;
+    line-height: 2.5;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    text-indent: 50px;
+}
+
+.major-overview li, .career, .salary{
+    list-style-type: none;
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.major-overview li::before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.5em;
+}
+
+/*
+style of courses and careers
+*/
+
+.course{
+    column-count: 2;
+    column-fill: balance;
+    padding: 10px;
+}
+
+.career li::before{
+    content: "\f35a";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.5em;
+}
+
+.career, .salary{
+    margin-left: 25px;
+    line-height: 2.5;
+}
+
+.salary{
+    text-align: center;
+}
+
+.career li, .salary li{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.salary li::before{
+    content: "\f155";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.5em;
+}
+
+
+/*
+Universities that offer major
+*/
+
+.major-uni{
+    width: 100%;
+    height: fit-content;
+    padding: 60px 0;
+}
+
+.major-uni h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    border-bottom: 5px solid #333;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.uni li{
+    padding: 25px 0;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    list-style-type: square;
+    text-transform: capitalize;
+    text-align: left;
+    margin-left: 120px;
+}
+
+.uni a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.uni a:hover{
+    border-bottom: 3px solid #333;
+    margin-left: 20px;
+}
+
+.uni{
+    column-count: 2;
+    column-rule: 2px solid #333;
+    padding: 10px;
+}
