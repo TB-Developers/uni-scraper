@@ -4,19 +4,94 @@
 
  /*Add major pictures*/
 
-.accounting-overview{              
+.accounting, .agriculture, .architecture, .art, .finance, .bio, .biz,
+.eco, .edu, .engin, .lang, .health, .human, .law, .math, .politic, .tech, .tour{              
     width: 100%;
-    height: 500px;
+    height: 450px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 150px;
+    padding: 120px;
     display: flex;
     justify-content: center;
 }
 
-.accounting-overview{
-    background-image: url(../images/Major/accounting.jpg);
+.tour{
+    background-image: url(../images/Major/tour.jpg);
 }
+
+.tech{
+    background-image: url(../images/Major/tech.jpg);
+}
+
+.politic{
+    background-image: url(../images/Major/politic.jpg);
+}
+
+.math{
+    background-image: url(../images/Major/math.jpg);
+}
+
+.law{
+    background-image: url(../images/Major/law.jpg);
+}
+
+.human{
+    background-image: url(../images/Major/human.jpg);
+}
+
+.health{
+    background-image: url(../images/Major/heal.jpg);
+}
+
+.lang{
+    background-image: url(../images/Major/lang.jpg);
+}
+
+.engin{
+    background-image: url(../images/Major/engin.jpg);
+}
+
+.edu{
+    background-image: url(../images/Major/edu.jpg);
+}
+
+.accounting{
+    background-image: url(../images/Major/accounting.png);
+}
+
+.agriculture{
+    background-image: url(../images/Major/agriculture.jpg);
+}
+
+.architecture{
+    background-image: url(../images/Major/architecture.jpg);
+}
+
+.art{
+    background-image: url(../images/Major/art.jpg);
+}
+
+.finance{
+    background-image: url(../images/Major/bank.png);
+}
+
+.bio{
+    background-image: url(../images/Major/bio.jpg);
+}
+
+.biz{
+    background-image: url(../images/Major/biz.jpg);
+}
+
+.eco{
+    background-image: url(../images/Major/eco.jpeg);
+}
+
+
+
+
+
+
 
 
 .major-title{
@@ -95,7 +170,7 @@ style of major info
     padding: 10px;
     text-transform: capitalize;
     text-align: left;
-    margin-left: 60px;
+    margin-left: 15px;
 }
 
 .major-overview li::before{
@@ -113,7 +188,12 @@ style of courses and careers
 .course{
     column-count: 2;
     column-fill: balance;
-    padding: 10px;
+    padding: 5px;
+    line-height: 2;
+}
+
+.course li{
+    font-size: 15px;
 }
 
 .career li::before{
@@ -125,12 +205,12 @@ style of courses and careers
 }
 
 .career, .salary{
-    margin-left: 25px;
     line-height: 2.5;
 }
 
 .salary{
     text-align: center;
+    margin-left: 0;
 }
 
 .career li, .salary li{
@@ -145,6 +225,14 @@ style of courses and careers
     display: inline-block;
     margin-left: -1.3em; 
     width: 1.5em;
+}
+
+.salary p{
+    margin-top: 20px;
+    font-size: 11px;
+    text-transform: lowercase;
+    padding: 0;
+    text-align: left;
 }
 
 
@@ -168,7 +256,7 @@ Universities that offer major
 }
 
 .uni li{
-    padding: 25px 0;
+    padding: 20px 0;
     font-size: 17px;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -181,13 +269,12 @@ Universities that offer major
 .uni a{
     color: black;
     text-decoration: none;
-    border-bottom: 3px solid transparent;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .uni a:hover{
-    border-bottom: 3px solid #333;
     margin-left: 20px;
+    opacity: .7;
 }
 
 .uni{
