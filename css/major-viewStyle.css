@@ -9,7 +9,9 @@
     width: 100%;
     height: 450px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 600px;
+    background-attachment: fixed;
+    background-clip: padding-box;
     padding: 120px;
     display: flex;
     justify-content: center;
@@ -56,7 +58,7 @@
 }
 
 .accounting{
-    background-image: url(../images/Major/accounting.png);
+    background-image: url(../images/Major/account.jpg);
 }
 
 .agriculture{
