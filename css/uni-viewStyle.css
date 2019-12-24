@@ -226,6 +226,7 @@
 .uni-major-list li{
     list-style-type: decimal;
     padding: 10px;
+    text-transform: capitalize;
 }
 
 .uni-major-list a{
