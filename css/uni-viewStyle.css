@@ -23,7 +23,7 @@
 
 
 .uni-title{
-    padding: 60px 30px;
+    padding: 35px 0;
     display: flex;
     justify-content: space-evenly;
 }
@@ -46,6 +46,7 @@
     text-align: center;
     background-color: rgba(51, 51, 51, 0.4);
     border-radius: 35px;
+    
 }
 
 .title-txt h1{
@@ -80,10 +81,14 @@
 
 
 .uni-BriefInfo{
-    width: 100%;
+    width: 80%;
+    margin: 0 10%;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    background: white;
 }
 
 
@@ -92,7 +97,7 @@
 
 .tooltip i{
     font-size: 13px;
-    color: gray;
+    color: rgb(80, 80, 80);
     opacity: .6;
 }
 
@@ -127,25 +132,28 @@
   }
 
   .tooltip i:hover{
-      opacity: .9;
+      opacity: .85;
   }
 
 
 
 
   .brief-info{
-      padding: 0 70px;
+      padding: 0;
   }
 
 
   .brief-info label{
-      font-size: 20px;
+      font-size: 17px;
+      color: rgb(46, 46, 46);
   }
 
   .brief-content p{
-      font-size: 30px;
+      margin-top: 5px;
+      font-size: 25px;
       font-weight: bold;
       text-transform: capitalize;
+      color: rgb(0, 0, 0);
   }
 
 
@@ -181,13 +189,13 @@
 
 .uni-detail h2{
     padding: 7px;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .uni-detail p{
     padding: 10px;
     display: block;
-    line-height: 2.3;
+    line-height: 2.5;
     font-size: 15px;
     text-align: justify;
     letter-spacing: 0.4px;
@@ -214,7 +222,7 @@
 .uni-major h2{
     text-align: center;
     padding: 7px;
-    font-size: 25px;
+    font-size: 24px;
     border-bottom: 5px solid #333;
     margin-bottom: 20px;
 }
@@ -232,7 +240,7 @@
 .uni-major-list a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     transition: 0.3s ease-in-out;
     border-bottom: 3px solid transparent;
@@ -246,9 +254,10 @@
 
 .uni-major-list p{
     margin-left: 30px;
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(94, 94, 94);
     padding: 5px;
+    text-transform: capitalize;
 }
 
 
@@ -266,7 +275,7 @@
     font-size: 20px;
     text-transform: capitalize;
     text-align: left;
-    margin-left: 140px;
+    margin-left: 110px;
 }
 
 .degree-level-list li::before{
@@ -287,7 +296,7 @@
     list-style-type: none;
     padding: 15px;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-transform: capitalize;
 }
@@ -299,14 +308,12 @@
     text-transform: lowercase;
     transition: 0.2s ease-in-out;
     text-decoration: none;
-    border-bottom: 2px solid #333;
-    opacity: .7;
+    opacity: .6;
+    
 }
 
 .campus-link a:hover{
     opacity: 1;
-    border-bottom: 2px solid transparent;
-    padding-bottom: 5px;
 }
 
 
@@ -341,7 +348,7 @@
 
 .FMI-list h1, .campus-list h1{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
     border-bottom: 5px solid #333;
     margin-bottom: 20px;
     padding: 7px;
@@ -350,7 +357,7 @@
 .FMI-list li{
     padding: 15px;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -361,7 +368,7 @@
     font-weight: normal;
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     border-bottom: 1px solid transparent;
     transition: 0.2s ease-in-out;
@@ -387,7 +394,7 @@
 
 .map-embed-title h1{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
     border-bottom: 5px solid #333;
     padding: 7px;
 }
@@ -397,7 +404,7 @@
     box-sizing: border-box;
     justify-content: space-around;
     display: flex;
-    padding: 50px;
+    padding: 50px 0 0;
     width: 100%;
 }
 
@@ -431,6 +438,7 @@
     width: 110px;
     opacity: .65;
     border-radius: 100px;
+    transition: 0.2s ease-in-out;
 }
 
 .readMore img:hover{
@@ -452,3 +460,12 @@
   }
 
   
+
+  .brief-wrapper{
+      width: 85%;
+      box-sizing: border-box;
+      position: relative;
+      top: -50px;
+      background-color: transparent;
+      margin-left: 7.5%;
+  }
