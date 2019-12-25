@@ -88,7 +88,7 @@
     justify-content: space-evenly;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 30px;
-    background: white;
+    background: linear-gradient(to bottom, rgb(94, 94, 94), #333);
 }
 
 
@@ -97,7 +97,7 @@
 
 .tooltip i{
     font-size: 13px;
-    color: rgb(80, 80, 80);
+    color: rgb(202, 202, 202);
     opacity: .6;
 }
 
@@ -145,7 +145,7 @@
 
   .brief-info label{
       font-size: 17px;
-      color: rgb(46, 46, 46);
+      color: rgb(204, 204, 204);
   }
 
   .brief-content p{
@@ -153,7 +153,7 @@
       font-size: 25px;
       font-weight: bold;
       text-transform: capitalize;
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
   }
 
 
