@@ -2,6 +2,11 @@
     height: fit-content;
 }
 
+.major-wrapper{
+    width: 85%;
+    margin: 0 7.5%;
+}
+
  /*Add major pictures*/
 
 .accounting, .agriculture, .architecture, .art, .finance, .bio, .biz,
@@ -150,7 +155,7 @@ style of major info
 .major-description h2, .major-overview h2{
     text-align: center;
     padding: 7px;
-    font-size: 28px;
+    font-size: 26px;
     border-bottom: 5px solid #333;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -251,7 +256,7 @@ Universities that offer major
 .major-uni h2{
     text-align: center;
     padding: 10px;
-    font-size: 28px;
+    font-size: 26px;
     border-bottom: 5px solid #333;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -259,13 +264,13 @@ Universities that offer major
 
 .uni li{
     padding: 20px 0;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.5px;
     list-style-type: square;
     text-transform: capitalize;
     text-align: left;
-    margin-left: 120px;
+    margin-left: 50px;
 }
 
 .uni a{
@@ -284,3 +289,5 @@ Universities that offer major
     column-rule: 2px solid #333;
     padding: 10px;
 }
+
+
