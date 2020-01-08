@@ -5,6 +5,7 @@
 .major-wrapper{
     width: 85%;
     margin: 0 7.5%;
+    
 }
 
  /*Add major pictures*/
@@ -264,7 +265,7 @@ Universities that offer major
 
 .uni li{
     padding: 20px 0;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     letter-spacing: 0.5px;
     list-style-type: square;
@@ -281,13 +282,14 @@ Universities that offer major
 
 .uni a:hover{
     margin-left: 20px;
-    opacity: .7;
+    opacity: .8;
 }
 
 .uni{
     column-count: 2;
     column-rule: 2px solid #333;
     padding: 10px;
+    
 }
 
 

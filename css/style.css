@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
 }
 
 body{
@@ -81,7 +80,7 @@ nav{
     margin-top: 0px;
     padding: 18px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bolder;
     letter-spacing: 3px; 
     transition: 0.3s ease-in-out;
