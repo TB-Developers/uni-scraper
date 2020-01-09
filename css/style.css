@@ -411,19 +411,19 @@ nav{
 
 .quiz-btn h1{
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .quiz-btn h2{
     text-decoration: underline;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
 }
 
 .quiz-btn p{
     padding: 15px;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 
