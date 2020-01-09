@@ -348,6 +348,15 @@ nav{
     text-align: center;
 }
 
+.qp_title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.qp_title::after{
+    content: ' Quiz';
+}
+
 
 /*
     Quiz button Style
