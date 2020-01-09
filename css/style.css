@@ -347,3 +347,92 @@ nav{
     margin-top: 20px;
     text-align: center;
 }
+
+
+/*
+    Quiz button Style
+*/
+
+.home-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+
+.objective{
+    width: 45%;
+}
+
+.objective ul{
+    margin-bottom: 20px;
+    border-bottom: 5px solid #333;
+    text-align: center;
+}
+
+.objective h2{
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.objective li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 10px;
+    line-height: 2;
+}
+
+.objective li::before{
+    content: "\f0a9";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.5em;
+}
+
+
+
+
+
+.quiz-btn{
+    border-radius: 30px;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    width: 40%;
+    margin-left: 0;
+    margin-top: 50px;
+}
+
+.quiz-btn h1{
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.quiz-btn h2{
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.quiz-btn p{
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.quiz-btn img{
+    border-radius: 50px;
+    width: 150px;
+}
+
+.quiz-btn img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
